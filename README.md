@@ -1,1 +1,3 @@
-# Parkinsons-Disease
+This project aims to predict Parkinson’s disease using machine learning algorithms, ensuring high accuracy and reliability. The dataset used contains biomedical voice measurements from patients, with features extracted to detect early signs of Parkinson’s. The project employs three different machine learning models: Support Vector Machine (SVM), Random Forest, and Logistic Regression.
+
+The dataset is preprocessed by removing irrelevant columns and standardizing features using StandardScaler. The data is split into training and testing sets to evaluate model performance. Each model is trained separately, and their accuracy is measured. To enhance reliability, majority voting is implemented—if at least two models predict a positive result, the final output is "Positive, Parkinson’s Found"; otherwise, "Negative, No Parkinson’s Found."
